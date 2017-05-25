@@ -1,8 +1,9 @@
 package controllers
 
 import javax.inject._
-import play.api._
+
 import play.api.mvc._
+import play.api.libs.json._
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -19,6 +20,6 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def index = Action { implicit request =>
-    Ok(views.html.index())
+    Ok(JsObject(Seq("body" -> JsString("got into controller"))))
   }
 }

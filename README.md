@@ -3,7 +3,7 @@
 1) `sbt run` from the root of the repo
 2) `npm start` from the `/front_end` directory
 
-The front end runs a little server to bundle and serve the javascript, so you'll hit `localhost:3000` to view the app in browser.
+The front end runs a little server to bundle and serve the javascript, so you'll hit `localhost:3000` to view the app in browser. create-react-app was used to generate the front end of the project, so that documentation should be referenced for any troubleshooting the client code.
 
 # Ideal to-dos
 - restructure front end components into folders
@@ -23,3 +23,4 @@ The front end runs a little server to bundle and serve the javascript, so you'll
 - Websocket testing tool: https://www.websocket.org/echo.html
 - BEM: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 - React: https://facebook.github.io/react/
+- create-react-app: https://github.com/facebookincubator/create-react-app

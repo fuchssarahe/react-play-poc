@@ -1,7 +1,7 @@
 # Running the app
 
-`sbt run` from the root of the repo
-`npm start` from the `/front_end` directory
+1) `sbt run` from the root of the repo
+2) `npm start` from the `/front_end` directory
 
 The front end runs a little server to bundle and serve the javascript, so you'll hit `localhost:3000` to view the app in browser.
 

@@ -26,7 +26,10 @@ class App extends Component {
 
   handleSubmit(e) {
     e.preventDefault()
-    this.connection.send()
+    fetch('/api/post', {
+      method: 'POST',
+      data: this.state.newMessage
+    })
   }
 
   render() {
